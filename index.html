@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education System</title>
+    <link rel="stylesheet" href="/Users/sandeshshejwal/Desktop/Deloitte/DAY4/ed/styles.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Online Education System</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="home">
+        <h2>Welcome to the Education System</h2>
+        <p>Explore our wide range of courses and start learning today!</p>
+    </div>
+
+    <div id="courses">
+        <h2>Our Courses</h2>
+        <div class="course-list">
+            <div class="course">
+                <h3>Web Development</h3>
+                <p>Learn HTML, CSS, and JavaScript to build websites from scratch.</p>
+            </div>
+            <div class="course">
+                <h3>Data Science</h3>
+                <p>Learn data analysis, machine learning, and more.</p>
+            </div>
+            <div class="course">
+                <h3>Graphic Design</h3>
+                <p>Master design principles and tools to create stunning visuals.</p>
+            </div>
+            <div class="course">
+                <h3>Cybersecurity</h3>
+                <p>Understand the fundamentals of protecting systems and data.</p>
+            </div>
+            <div class="course">
+                <h3>Artificial Intelligence</h3>
+                <p>Dive into AI concepts and practical applications.</p>
+            </div>
+            <div class="course">
+                <h3>Blockchain</h3>
+                <p>Explore the technology behind cryptocurrencies and decentralized systems.</p>
+            </div>
+            <div class="course">
+                <h3>Cloud Computing</h3>
+                <p>Learn how to leverage cloud services for scalable solutions.</p>
+            </div>
+            <div class="course">
+                <h3>Project Management</h3>
+                <p>Enhance your skills in managing and executing projects effectively.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="register">
+        <h2>Student Registration</h2>
+        <form id="registrationForm">
+            <label for="studentName">Name:</label>
+            <input type="text" id="studentName" required>
+
+            <label for="studentEmail">Email:</label>
+            <input type="email" id="studentEmail" required>
+
+            <label for="studentCourse">Course:</label>
+            <select id="studentCourse">
+                <option value="Web Development">Web Development</option>
+                <option value="Data Science">Data Science</option>
+                <option value="Graphic Design">Graphic Design</option>
+                <option value="Cybersecurity">Cybersecurity</option>
+                <option value="Artificial Intelligence">Artificial Intelligence</option>
+                <option value="Blockchain">Blockchain</option>
+                <option value="Cloud Computing">Cloud Computing</option>
+                <option value="Project Management">Project Management</option>
+            </select>
+
+            <button type="submit">Register</button>
+        </form>
+        <p id="registerMessage"></p>
+    </div>
+
+    <div id="dashboard">
+        <h2>Student Dashboard</h2>
+        <div id="studentList">
+            <h3>Registered Students:</h3>
+            <ul id="students"></ul>
+        </div>
+    </div>
+
+    <div id="about-us">
+        <h2>About Us</h2>
+        <p>We are dedicated to providing high-quality online education to help you achieve your learning goals. Our platform offers a wide range of courses taught by industry experts.</p>
+    </div>
+
+    <div id="contact-us">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need further information, feel free to reach out to us:</p>
+        <p>Email: support@education-system.com</p>
+        <p>Phone: +123-456-7890</p>
+    </div>
+
+    <script src="/Users/sandeshshejwal/Desktop/Deloitte/DAY4/ed/main.js"></script>
+</body>
+</html>

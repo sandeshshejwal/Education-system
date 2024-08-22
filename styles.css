@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 20px; /* Space between items */
+}
+
+.course {
+    flex: 1 1 calc(25% - 20px); /* Each item takes up 25% of the row width minus the gap */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    min-width: 200px; /* Optional: Minimum width for responsive design */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, select, button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#studentList {
+    margin-top: 20px;
+}
+
+#students {
+    list-style: none;
+    padding: 0;
+}
+
+#loginMessage {
+    color: red;
+    text-align: center;
+}
